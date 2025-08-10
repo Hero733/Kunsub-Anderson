@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+
+.game-container {
+    text-align: center;
+    cursor: pointer;
+}
+
+#cat-image {
+    width: 300px;
+    height: auto;
+    transition: transform 0.1s;
+}
+
+#score {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+}
